@@ -41,5 +41,5 @@ default['python']['make_options'] = %W{install}
 
 default['python']['pip_location'] = "#{node['python']['prefix_dir']}/bin/pip"
 default['python']['virtualenv_location'] = "#{node['python']['prefix_dir']}/bin/virtualenv"
-default['python']['setuptools_version'] = nil # defaults to latest
+default['python']['setuptools_version'] = "44.0.0"
 default['python']['virtualenv_version'] = nil
